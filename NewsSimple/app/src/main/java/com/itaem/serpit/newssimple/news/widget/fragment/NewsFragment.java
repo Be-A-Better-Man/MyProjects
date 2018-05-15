@@ -17,12 +17,7 @@ import com.itaem.serpit.newssimple.R;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Author : lauren
- * Email  : lauren.liuling@gmail.com
- * Blog   : http://www.liuling123.com
- * Date   : 15/12/13
- */
+
 public class NewsFragment extends Fragment {
 
     public static final int NEWS_TYPE_DOMESTIC = 0;

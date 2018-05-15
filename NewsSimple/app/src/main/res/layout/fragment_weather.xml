@@ -26,14 +26,14 @@
                 style="@style/weacher_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="深圳" />
+                android:text="湛江" />
             <TextView
                 android:id="@+id/today"
                 style="@style/weacher_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="24dp"
-                android:text="2015年12月22日 星期二" />
+                android:text="2018年5月1日 星期二" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"

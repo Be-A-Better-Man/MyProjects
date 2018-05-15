@@ -1,6 +1,8 @@
 package com.itaem.serpit.newssimple.images.model;
 
-
+/**
+ * 获取图片
+ */
 
 import com.itaem.serpit.newssimple.commons.Urls;
 import com.itaem.serpit.newssimple.images.ImageJsonUtils;
@@ -9,19 +11,9 @@ import com.itaem.serpit.newssimple.utils.OkHttpUtils;
 
 import java.util.List;
 
-/**
- * Description :
- * Author : lauren
- * Email  : lauren.liuling@gmail.com
- * Blog   : http://www.liuling123.com
- * Date   : 15/12/22
- */
+
 public class ImageModelImpl implements ImageModel {
 
-    /**
-     * 获取图片列表
-     * @param listener
-     */
     @Override
     public void loadImageList(final OnLoadImageListListener listener) {
         String url = Urls.IMAGES_URL;

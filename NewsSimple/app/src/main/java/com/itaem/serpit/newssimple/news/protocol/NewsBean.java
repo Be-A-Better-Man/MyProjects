@@ -3,9 +3,7 @@ package com.itaem.serpit.newssimple.news.protocol;
 
 import com.itaem.serpit.newssimple.news.protocol.forNewBean.Showapi_res_body;
 
-/**
- * Created by Administrator on 2018/4/16 0016.
- */
+
 
 public class NewsBean {
         private int showapi_res_code;

@@ -8,9 +8,6 @@ import com.itaem.serpit.newssimple.news.protocol.NewsBean;
 
 import com.itaem.serpit.newssimple.news.view.NewsView;
 
-/**
- * Created by Administrator on 2018/4/16 0016.
- */
 
 public class NewsPresenterImpl implements NewsPresenter {
     private static final int NEWS_TYPE_DOMESTIC = 0;

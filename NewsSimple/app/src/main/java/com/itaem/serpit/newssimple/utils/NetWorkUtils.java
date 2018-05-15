@@ -10,9 +10,7 @@ import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.functions.Consumer;
 import io.reactivex.schedulers.Schedulers;
 
-/**
- * Created by Administrator on 2018/4/16 0016.
- */
+
 
 public class NetWorkUtils {
     private final static String TAG = "NetWorkUtils";

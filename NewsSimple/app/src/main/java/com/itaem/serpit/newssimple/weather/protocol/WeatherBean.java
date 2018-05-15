@@ -1,12 +1,6 @@
 package com.itaem.serpit.newssimple.weather.protocol;
 
-/**
- * Description : 天气实体类
- * Author : lauren
- * Email  : lauren.liuling@gmail.com
- * Blog   : http://www.liuling123.com
- * Date   : 2015/12/22
- */
+
 public class WeatherBean {
 
     private static final long serialVersionUID = 1L;

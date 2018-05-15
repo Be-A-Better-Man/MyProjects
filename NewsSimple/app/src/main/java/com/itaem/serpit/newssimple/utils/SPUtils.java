@@ -5,9 +5,7 @@ import android.content.SharedPreferences;
 
 import com.itaem.serpit.newssimple.base.NewsApplication;
 
-/**
- * Created by Administrator on 2018/4/22 0022.
- */
+
 
 public class SPUtils {
     private static SharedPreferences sp = NewsApplication.context.getSharedPreferences("sp", Context.MODE_PRIVATE);

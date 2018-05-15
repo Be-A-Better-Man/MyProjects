@@ -5,18 +5,12 @@ import com.itaem.serpit.newssimple.weather.protocol.WeatherBean;
 
 import java.util.List;
 
-/**
- * Description :
- * Author : lauren
- * Email  : lauren.liuling@gmail.com
- * Blog   : http://www.liuling123.com
- * Date   : 2015/12/22
- */
-public interface WeatherView {
 
+public interface WeatherView {
     void showProgress();
     void hideProgress();
     void showWeatherLayout();
+    void showErrorToast(String msg);
 
     void setCity(String city);
     void setToday(String data);
@@ -25,8 +19,5 @@ public interface WeatherView {
     void setWeather(String weather);
     void setWeatherImage(int res);
     void setWeatherData(List<WeatherBean> lists);
-
-    void showErrorToast(String msg);
-
 
 }

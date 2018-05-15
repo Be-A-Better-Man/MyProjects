@@ -10,13 +10,7 @@ import android.view.ViewGroup;
 import com.itaem.serpit.newssimple.R;
 
 
-/**
- * Description :
- * Author : lauren
- * Email  : lauren.liuling@gmail.com
- * Blog   : http://www.liuling123.com
- * Date   : 15/12/13
- */
+
 public class AboutFragment extends Fragment {
 
     @Nullable

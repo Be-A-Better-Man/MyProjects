@@ -10,22 +10,14 @@ import com.itaem.serpit.newssimple.utils.LogUtils;
 
 import java.util.ArrayList;
 import java.util.List;
-
 /**
- * Description :
- * Author : lauren
- * Email  : lauren.liuling@gmail.com
- * Blog   : http://www.liuling123.com
- * Date   : 15/12/23
+ * 将获取到的json转换为图片列表对象
  */
+
 public class ImageJsonUtils {
 
     private final static String TAG = "ImageJsonUtils";
-    /**
-     * 将获取到的json转换为图片列表对象
-     * @param res
-     * @return
-     */
+
     public static List<ImageBean> readJsonImageBeans(String res) {
         List<ImageBean> beans = new ArrayList<ImageBean>();
         try {

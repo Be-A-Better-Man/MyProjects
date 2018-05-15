@@ -23,15 +23,12 @@ import io.reactivex.functions.Consumer;
 import io.reactivex.schedulers.Schedulers;
 
 /**
- * 新闻Model的真正实现类，此处没有使用原来的网络请求工具类，因为此处的网络请求用了API接口里自带的请求类
+ * 新闻Model的真正实现类，此处的网络请求用了API接口里自带的请求类
  * 另外，这里还使用了RxJava作为线程切换（Android的子线程不允许更新UI，同样主线程也不能请求网络）
  */
 
 public class NewsModelImpl implements NewsModel {
     private final static String TAG = "NewsModelImpl";
-
-
-
     @Override
     public void loadNews(final String  type, final NewsPresenterImpl.NewsResultCallBack callBack,final int page) {
 
@@ -65,6 +62,4 @@ public class NewsModelImpl implements NewsModel {
 
 
     }
-
-
 }

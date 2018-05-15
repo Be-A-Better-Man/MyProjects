@@ -4,13 +4,7 @@ package com.itaem.serpit.newssimple.main.presenter;
 import com.itaem.serpit.newssimple.R;
 import com.itaem.serpit.newssimple.main.view.MainView;
 
-/**
- * Description :
- * Author : lauren
- * Email  : lauren.liuling@gmail.com
- * Blog   : http://www.liuling123.com
- * Date   : 15/12/13
- */
+
 public class MainPresenterImpl implements MainPresenter {
 
     private MainView mMainView;
